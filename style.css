@@ -1,0 +1,38 @@
+#myphoto{
+	height:200px;
+}
+
+.hello{
+	float: left;
+	width: 20%;
+	margin: 30px;
+	padding:20px;
+	border: 2px solid lightblue;
+	box-shadow: 5px 5px 5px lightblue;
+}
+
+.bottom {
+	margin-bottom: 0px;
+}
+
+.bg-image{
+	background-image: url('block.jpg');
+	height: 60vh;
+	background-size: cover;
+	color:white;
+}
+
+.photo{
+	background-image: url('block.jpg');
+	height: 40vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:white;
+}
+
+.foot{
+	display: flex;
+	color: white;
+	justify-content: center;
+}
